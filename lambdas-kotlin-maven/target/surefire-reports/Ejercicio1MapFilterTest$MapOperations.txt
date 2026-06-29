@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio1MapFilterTest$MapOperations
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in Ejercicio1MapFilterTest$MapOperations
+Ejercicio1MapFilterTest$MapOperations.calcularPreciosConDescuento -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe retornar una lista con los precios después de aplicar el descuento
+	at ProductoManager.aplicarDescuento(ProductoManager.kt:29)
+	at Ejercicio1MapFilterTest$MapOperations.calcularPreciosConDescuento(Ejercicio1MapFilterTest.kt:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio1MapFilterTest$MapOperations.crearEtiquetasDeProductos -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe generar etiquetas en formato 'nombre - $precio (estado)'
+	at ProductoManager.generarEtiquetas(ProductoManager.kt:33)
+	at Ejercicio1MapFilterTest$MapOperations.crearEtiquetasDeProductos(Ejercicio1MapFilterTest.kt:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio1MapFilterTest$MapOperations.obtenerNombresDeProductos -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe retornar una lista con solo los nombres de los productos
+	at ProductoManager.obtenerNombres(ProductoManager.kt:22)
+	at Ejercicio1MapFilterTest$MapOperations.obtenerNombresDeProductos(Ejercicio1MapFilterTest.kt:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

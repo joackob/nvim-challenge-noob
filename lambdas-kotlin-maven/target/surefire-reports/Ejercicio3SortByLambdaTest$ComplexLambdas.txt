@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio3SortByLambdaTest$ComplexLambdas
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in Ejercicio3SortByLambdaTest$ComplexLambdas
+Ejercicio3SortByLambdaTest$ComplexLambdas.ordenarPorPuntuacionCompuesta -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe ordenar por puntuación = (evaluacionDesempeño * 2) + (proyectosCompletados * 0.1) descendente
+	at SistemaRanking.ordenarPorPuntuacionCompuesta(SistemaRanking.kt:42)
+	at Ejercicio3SortByLambdaTest$ComplexLambdas.ordenarPorPuntuacionCompuesta(Ejercicio3SortByLambdaTest.kt:109)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio3SortByLambdaTest$ComplexLambdas.ordenarConCondiciones -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe ordenar con empleados de IT primero, luego por salario ascendente
+	at SistemaRanking.ordenarITPrimero(SistemaRanking.kt:46)
+	at Ejercicio3SortByLambdaTest$ComplexLambdas.ordenarConCondiciones(Ejercicio3SortByLambdaTest.kt:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio3SortByLambdaTest$ComplexLambdas.ordenarPorEficiencia -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe ordenar por eficiencia (proyectosCompletados / añosExperiencia) descendente
+	at SistemaRanking.ordenarPorEficiencia(SistemaRanking.kt:38)
+	at Ejercicio3SortByLambdaTest$ComplexLambdas.ordenarPorEficiencia(Ejercicio3SortByLambdaTest.kt:91)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

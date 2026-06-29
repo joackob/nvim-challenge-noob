@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio3SortByLambdaTest$LambdaConfiguration
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in Ejercicio3SortByLambdaTest$LambdaConfiguration
+Ejercicio3SortByLambdaTest$LambdaConfiguration.composicionDeLambdas -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: 
+An operation is not implemented: 
+            Implementar: 
+            1) Filtrar empleados según el predicado
+            2) Ordenar por el criterio dado (descendente)
+            3) Tomar solo los primeros 'limite' empleados
+        
+	at SistemaRanking.obtenerTopEmpleados(SistemaRanking.kt:84)
+	at Ejercicio3SortByLambdaTest$LambdaConfiguration.composicionDeLambdas(Ejercicio3SortByLambdaTest.kt:241)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio3SortByLambdaTest$LambdaConfiguration.ordenamientoPersonalizable -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Implementar: Debe ordenar usando la estrategia proporcionada descendentemente
+	at SistemaRanking.ordenarConEstrategia(SistemaRanking.kt:75)
+	at Ejercicio3SortByLambdaTest$LambdaConfiguration.ordenamientoPersonalizable(Ejercicio3SortByLambdaTest.kt:219)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

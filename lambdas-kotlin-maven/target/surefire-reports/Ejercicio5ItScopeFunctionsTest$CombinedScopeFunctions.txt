@@ -1,0 +1,53 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions
+Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions.crearPipelineFluido -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: 
+An operation is not implemented: 
+            Implementar pipeline con scope functions:
+            1. Activar todos los usuarios (apply)
+            2. Asignar rol USER si no tienen roles (also)
+            3. Configurar notificaciones = true (apply)
+            4. Si nombre es "Admin", agregar rol ADMIN y nivelPrivacidad = 3 (run)
+        
+	at UsuarioBuilder.procesarLoteUsuarios(UsuarioBuilder.kt:175)
+	at Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions.crearPipelineFluido(Ejercicio5ItScopeFunctionsTest.kt:268)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions.transformacionCompletaConScopeFunctions -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: 
+An operation is not implemented: 
+            Implementar parsing completo:
+            1. Parsear formato "clave:valor|clave:valor|..."
+            2. Crear usuario con los datos parseados
+            3. Usar scope functions apropiadas para cada transformación
+            4. Retornar null si el formato es inválido
+        
+	at UsuarioBuilder.parsearYCrearUsuario(UsuarioBuilder.kt:187)
+	at Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions.transformacionCompletaConScopeFunctions(Ejercicio5ItScopeFunctionsTest.kt:292)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions.combinarScopeFunctions -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: 
+An operation is not implemented: 
+            Implementar combinando scope functions:
+            1. Verificar que existan 'nombre' y 'email' (si no, retornar null)
+            2. Crear usuario con 'run'
+            3. Configurar propiedades con 'apply'
+            4. Si departamento es "IT", usar 'also' para configuración especial (tema oscuro, rol IT_USER)
+            5. Retornar usuario configurado
+        
+	at UsuarioBuilder.procesarUsuarioComplejo(UsuarioBuilder.kt:162)
+	at Ejercicio5ItScopeFunctionsTest$CombinedScopeFunctions.combinarScopeFunctions(Ejercicio5ItScopeFunctionsTest.kt:241)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

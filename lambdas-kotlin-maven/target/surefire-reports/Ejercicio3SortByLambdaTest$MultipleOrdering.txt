@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio3SortByLambdaTest$MultipleOrdering
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! -- in Ejercicio3SortByLambdaTest$MultipleOrdering
+Ejercicio3SortByLambdaTest$MultipleOrdering.ordenamientoCondicional -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: 
+An operation is not implemented: 
+            Implementar: 
+            - Juniors (experiencia < 5): ordenar por evaluación descendente
+            - Seniors (experiencia >= 5): ordenar por proyectos completados descendente
+            - Mantener juniors antes que seniors en la lista final
+        
+	at SistemaRanking.ordenarSegunSeniority(SistemaRanking.kt:61)
+	at Ejercicio3SortByLambdaTest$MultipleOrdering.ordenamientoCondicional(Ejercicio3SortByLambdaTest.kt:180)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+Ejercicio3SortByLambdaTest$MultipleOrdering.ordenarMultiplesCriterios -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: 
+An operation is not implemented: 
+            Implementar: Debe ordenar por:
+            1) Departamento alfabéticamente
+            2) Dentro del mismo departamento, por salario descendente
+            3) Si mismo departamento y salario, por experiencia ascendente
+        
+	at SistemaRanking.ordenarPorDepartamentoYSalario(SistemaRanking.kt:52)
+	at Ejercicio3SortByLambdaTest$MultipleOrdering.ordenarMultiplesCriterios(Ejercicio3SortByLambdaTest.kt:154)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
