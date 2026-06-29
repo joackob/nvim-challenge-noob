@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.011" tests="14" errors="12" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/federicovillace/Downloads/fundamentos-basicos-maven/target/test-classes:/Users/federicovillace/Downloads/fundamentos-basicos-maven/target/classes:/Users/federicovillace/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar:/Users/federicovillace/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/federicovillace/.m2/repository/org/jetbrains/kotlin/kotlin-test-junit5/2.0.21/kotlin-test-junit5-2.0.21.jar:/Users/federicovillace/.m2/repository/org/jetbrains/kotlin/kotlin-test/2.0.21/kotlin-test-2.0.21.jar:/Users/federicovillace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/federicovillace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/federicovillace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/federicovillace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar:/Users/federicovillace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:/Users/federicovillace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/federicovillace/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/federicovillace/Downloads/fundamentos-basicos-maven/target/surefire/surefirebooter-20260629093818555_3.jar /Users/federicovillace/Downloads/fundamentos-basicos-maven/target/surefire 2026-06-29T09-38-18_511-jvmRun1 surefire-20260629093818555_1tmp surefire_0-20260629093818555_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/federicovillace/Downloads/fundamentos-basicos-maven/target/test-classes:/Users/federicovillace/Downloads/fundamentos-basicos-maven/target/classes:/Users/federicovillace/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar:/Users/federicovillace/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/federicovillace/.m2/repository/org/jetbrains/kotlin/kotlin-test-junit5/2.0.21/kotlin-test-junit5-2.0.21.jar:/Users/federicovillace/.m2/repository/org/jetbrains/kotlin/kotlin-test/2.0.21/kotlin-test-2.0.21.jar:/Users/federicovillace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/federicovillace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/federicovillace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/federicovillace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar:/Users/federicovillace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:/Users/federicovillace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/federicovillace/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/federicovillace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/federicovillace/Downloads/fundamentos-basicos-maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/federicovillace/Downloads/fundamentos-basicos-maven/target/surefire/surefirebooter-20260629093818555_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="federicovillace"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.6.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/federicovillace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0k/sm2hh9vn0w5cpx4m47lnkm780000gn/T/"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/Users/federicovillace/Downloads/fundamentos-basicos-maven"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/federicovillace/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testFuncionLambda" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001"/>
+  <testcase name="testFuncionConParametrosDefaultPersonalizado" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.003">
+    <error message="An operation is not implemented: Retornar &quot;Hola, Pedro!&quot;" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar "Hola, Pedro!"
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.saludarConDefault(Ejercicio3.kt:16)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionConParametrosDefaultPersonalizado(Ejercicio3Test.kt:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionLambdaSumar" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001"/>
+  <testcase name="testFuncionAnonima" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.0">
+    <error message="An operation is not implemented: Aplicar una operacion lambda a dos numeros" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Aplicar una operacion lambda a dos numeros
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.aplicarOperacion(Ejercicio3.kt:48)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionAnonima(Ejercicio3Test.kt:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionInfix" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001">
+    <error message="An operation is not implemented: Funcion infix para comparar numeros" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Funcion infix para comparar numeros
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.esMayorQue(Ejercicio3.kt:40)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionInfix(Ejercicio3Test.kt:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionConUnParametro" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.0">
+    <error message="An operation is not implemented: Retornar &quot;Hola, Ana!&quot;" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar "Hola, Ana!"
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.saludarConNombre(Ejercicio3.kt:8)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionConUnParametro(Ejercicio3Test.kt:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionExtension" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001">
+    <error message="An operation is not implemented: Extension para contar caracteres de un String" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Extension para contar caracteres de un String
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.cuentaCaracteres(Ejercicio3.kt:36)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionExtension(Ejercicio3Test.kt:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionSinParametros" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.0">
+    <error message="An operation is not implemented: Retornar &quot;Hola, bienvenido!&quot;" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar "Hola, bienvenido!"
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.saludar(Ejercicio3.kt:4)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionSinParametros(Ejercicio3Test.kt:10)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionVarargs" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.0">
+    <error message="An operation is not implemented: Sumar todos los numeros pasados como varargs" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Sumar todos los numeros pasados como varargs
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.sumarTodos(Ejercicio3.kt:44)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionVarargs(Ejercicio3Test.kt:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionUnit" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001">
+    <error message="An operation is not implemented: Esta funcion no retorna nada" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Esta funcion no retorna nada
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.funcionSinRetorno(Ejercicio3.kt:24)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionUnit(Ejercicio3Test.kt:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionSingleExpression" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.0">
+    <error message="An operation is not implemented: Retornar el cuadrado del numero" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar el cuadrado del numero
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.cuadrado(Ejercicio3.kt:28)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionSingleExpression(Ejercicio3Test.kt:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionConParametrosDefault" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001">
+    <error message="An operation is not implemented: Retornar &quot;Hola, Usuario!&quot;" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar "Hola, Usuario!"
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.saludarConDefault(Ejercicio3.kt:16)
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.saludarConDefault$default(Ejercicio3.kt:15)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionConParametrosDefault(Ejercicio3Test.kt:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionConParametrosNombrados" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.001">
+    <error message="An operation is not implemented: Retornar &quot;Hola, Dra. Lucía&quot;" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar "Hola, Dra. Lucía"
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.crearSaludo(Ejercicio3.kt:20)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionConParametrosNombrados(Ejercicio3Test.kt:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+  <testcase name="testFuncionConDosParametros" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.0">
+    <error message="An operation is not implemented: Retornar &quot;Hola, Juan  García!&quot;" type="kotlin.NotImplementedError"><![CDATA[kotlin.NotImplementedError: An operation is not implemented: Retornar "Hola, Juan  García!"
+	at edu.etec.ds.fundamentos.Ejercicio3Kt.saludarPersona(Ejercicio3.kt:12)
+	at edu.etec.ds.fundamentos.Ejercicio3Test.testFuncionConDosParametros(Ejercicio3Test.kt:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+  </testcase>
+</testsuite>

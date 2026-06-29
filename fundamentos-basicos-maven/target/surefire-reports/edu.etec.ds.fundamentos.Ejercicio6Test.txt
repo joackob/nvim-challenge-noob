@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: edu.etec.ds.fundamentos.Ejercicio6Test
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in edu.etec.ds.fundamentos.Ejercicio6Test
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaSemana1 -- Time elapsed: 0.016 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para retornar el nombre del dia (1=Lunes, 7=Domingo)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDiaSemana(Ejercicio6.kt:4)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaSemana1(Ejercicio6Test.kt:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaSemana7 -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para retornar el nombre del dia (1=Lunes, 7=Domingo)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDiaSemana(Ejercicio6.kt:4)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaSemana7(Ejercicio6Test.kt:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaInvalidoMayor -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para retornar el nombre del dia (1=Lunes, 7=Domingo)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDiaSemana(Ejercicio6.kt:4)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaInvalidoMayor(Ejercicio6Test.kt:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenConvertirMoneda -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Convertir: USD a MXN (1.85), EUR a MXN (18), JPY a MXN (0.10), otro retorna 0
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.convertirMoneda(Ejercicio6.kt:20)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenConvertirMoneda(Ejercicio6Test.kt:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresion -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when como expresion: >200 -> 25%, >150 -> 15%, >100 -> 10%, else 0%
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDescuentoWhen(Ejercicio6.kt:28)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresion(Ejercicio6Test.kt:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenMesInvalido -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para retornar el nombre del mes
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerNombreMes(Ejercicio6.kt:8)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenMesInvalido(Ejercicio6Test.kt:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenClasificarEdad -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when con rangos: Bebe (<3), Nino (3-12), Adolescente (13-17), Adulto (18-65), Anciano (>65)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.clasificarEdad(Ejercicio6.kt:16)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenClasificarEdad(Ejercicio6Test.kt:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenRango -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when con rangos: >=90 Promocionado, >=60 Aprobado, else Desaprobado
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerCalificacion(Ejercicio6.kt:32)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenRango(Ejercicio6Test.kt:99)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresionSinDescuento -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when como expresion: >200 -> 25%, >150 -> 15%, >100 -> 10%, else 0%
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDescuentoWhen(Ejercicio6.kt:28)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresionSinDescuento(Ejercicio6Test.kt:87)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresionMayor -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when como expresion: >200 -> 25%, >150 -> 15%, >100 -> 10%, else 0%
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDescuentoWhen(Ejercicio6.kt:28)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresionMayor(Ejercicio6Test.kt:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaInvalido -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para retornar el nombre del dia (1=Lunes, 7=Domingo)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerDiaSemana(Ejercicio6.kt:4)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenDiaInvalido(Ejercicio6Test.kt:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenOperacion -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para realizar + - * / %. Division por cero retorna 0.0
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.realizarOperacion(Ejercicio6.kt:24)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenOperacion(Ejercicio6Test.kt:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenMesNombre -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para retornar el nombre del mes
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.obtenerNombreMes(Ejercicio6.kt:8)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenMesNombre(Ejercicio6Test.kt:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenClasificarNumero -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para clasificar: Positivo, Negativo o Cero
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.clasificarNumeroWhen(Ejercicio6.kt:12)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenClasificarNumero(Ejercicio6Test.kt:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenMultipleCondiciones -- Time elapsed: 0.001 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para verificar si es vocal (a, e, i, o, u mayusculas y minusculas)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.esVocal(Ejercicio6.kt:36)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenMultipleCondiciones(Ejercicio6Test.kt:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+edu.etec.ds.fundamentos.Ejercicio6Test.testWhenEsPrimo -- Time elapsed: 0 s <<< ERROR!
+kotlin.NotImplementedError: An operation is not implemented: Usar when para determinar si un numero es primo (mayor a 1 divisible solo por 1 y si mismo)
+	at edu.etec.ds.fundamentos.Ejercicio6Kt.esPrimo(Ejercicio6.kt:40)
+	at edu.etec.ds.fundamentos.Ejercicio6Test.testWhenEsPrimo(Ejercicio6Test.kt:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
